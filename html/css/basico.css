@@ -1,0 +1,13 @@
+body {
+    margin: 100px;
+    background: #ffdd99;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    text-align: justify;
+    color: #009;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uso de Classe</title>
+    <style rel="stylesheet" type="text/css">
+        body {
+            background: #cef;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        table {
+            font-size: 16px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        th {
+            color: #ffffff;
+            background-color: #333333;
+            font-weight: bold;
+            font-size: 20px;
+            border: 1px solid #000;
+        }
+
+        td {
+            padding: 5px;
+            border: 1px solid #000;
+        }
+
+        .linha-impar {
+            background-color: #ffffff;
+        }
+
+        .linha-par {
+            background-color: #cccccc;
+        }
+
+        #titulo-matematica {
+            font-size: 72px;
+            text-align: right;
+        }
+
+        table.paises, .destaque {
+            color: red;
+        }
+    </style>
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <h2>Tabela de Estados Brasileiros</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sigla</th>
+                <th>Estado</th>
+                <th>Capital</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="linha-impar">
+                <td>SP</td>
+                <td>São Paulo</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr class="linha-par">
+                <td>RJ</td>
+                <td>Rio de Janeiro</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr class="linha-impar">
+                <td>MG</td>
+                <td>Minas Gerais</td>
+                <td>Belo Horizonte</td>
+            </tr>
+            <tr class="linha-par">
+                <td>RS</td>
+                <td>Rio Grande do Sul</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr class="linha-impar">
+                <td>BA</td>
+                <td>Bahia</td>
+                <td>Salvador</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabela de Países</h2>
+    <table class="paises">
+        <thead>
+            <tr>
+                <th>Sigla</th>
+                <th>País</th>
+                <th>Capital</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="linha-impar">
+                <td>BR</td>
+                <td>Brasil</td>
+                <td>Brasília</td>
+            </tr>
+            <tr class="linha-par">
+                <td>US</td>
+                <td>Estados Unidos</td>
+                <td>Washington, D.C.</td>
+            </tr>
+            <tr class="linha-impar">
+                <td>FR</td>
+                <td>França</td>
+                <td>Paris</td>
+            </tr>
+            <tr class="linha-par">
+                <td>JP</td>
+                <td>Japão</td>
+                <td>Tóquio</td>
+            </tr>
+            <tr class="linha-impar">
+                <td>AU</td>
+                <td>Austrália</td>
+                <td>Camberra</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="titulo-matematica">Tabela de Fórmulas Matemáticas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Fórmula</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="destaque">
+                <td>Teorema de Pitágoras</td>
+                <td>\[
+                    a^2 + b^2 = c^2
+                    \]</td>
+            </tr>
+            <tr>
+                <td>Fórmula Quadrática</td>
+                <td>\[
+                    x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}}
+                    \]</td>
+            </tr>
+            <tr>
+                <td>Equação de Euler</td>
+                <td>\[
+                    e^{i\pi} + 1 = 0
+                    \]</td>
+            </tr>
+            <tr>
+                <td>Lei da Gravitação Universal</td>
+                <td>\[
+                    F = G \frac{{m_1 m_2}}{{r^2}}
+                    \]</td>
+            </tr>
+            <tr>
+                <td>Fórmula da Área do Círculo</td>
+                <td>\[
+                    A = \pi r^2
+                    \]</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

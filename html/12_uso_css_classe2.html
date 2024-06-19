@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uso de Classe</title>
+    <style rel="stylesheet" type="text/css">
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        div {
+            color: #f00;
+        }
+
+        .cor-um {
+            color: #000;
+        }
+
+        p.cor-dois {
+            color: #00f;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="cor-um">Parágrafo na cor preta.</p>
+    <p class="cor-dois">Parágrafo na cor azul.</p>
+    
+    <div>Item na cor padrão da tag <strong>&lt;div&gt;</strong></div>
+    <br><br>
+    <div class="cor-um">Item na cor preta (pois aplica a classe <strong>cor-um</strong> em substituição à cor vermelha da tag <strong>div</strong>)</div>
+    <div class="cor-dois">Item na cor vermelha, pois não aplica a classe <strong>cor-dois</strong></div>
+</body>
+
+</html>

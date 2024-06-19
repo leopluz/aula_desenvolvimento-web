@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uso de Classe</title>
+    <style rel="stylesheet" type="text/css">
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        table {
+            font-size: 16px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        th {
+            color: #ffffff;
+            background-color: #333333;
+            font-weight: bold;
+            font-size: 20px;
+            border: 1px solid #000;
+        }
+
+        body {
+            margin: 100px;
+            background: #9df;
+        }
+
+        .destaque {
+            color: red;
+        }
+
+        td {
+            padding: 5px;
+            border: 1px solid #000;
+        }
+
+        .linha-impar {
+            background-color: #ffffff;
+        }
+
+        .linha-par {
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabela de Estados Brasileiros</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sigla</th>
+                <th>Estado</th>
+                <th>Capital</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="linha-impar">
+                <td>SP</td>
+                <td>São Paulo</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr class="linha-par">
+                <td>RJ</td>
+                <td>Rio de Janeiro</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr class="linha-impar">
+                <td>MG</td>
+                <td>Minas Gerais</td>
+                <td>Belo Horizonte</td>
+            </tr>
+            <tr class="linha-par">
+                <td>RS</td>
+                <td>Rio Grande do Sul</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr class="linha-impar">
+                <td>BA</td>
+                <td>Bahia</td>
+                <td>Salvador</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
