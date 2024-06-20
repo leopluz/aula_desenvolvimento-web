@@ -1,13 +1,18 @@
 body {
     margin: 100px;
-    background: #ffdd99;
+    background: #2f64a5;
+    /* rgb = red, green, blue 
+    definir valores de 0 a 255  */
+    font-size: 10px;
 }
 
 h1 {
     font-size: 48px;
+    background-color: yellow;
 }
 
 p {
     text-align: justify;
-    color: #009;
+    color: navy;
+    font-size: 15px !important;
 }

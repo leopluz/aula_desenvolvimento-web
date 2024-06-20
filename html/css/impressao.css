@@ -1,0 +1,17 @@
+body {
+    margin: 200px;
+    background: #ffffff;
+    /* rgb = red, green, blue 
+    definir valores de 0 a 255  */
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+p {
+    text-align: justify;
+    color: #000;
+    font-size: 15px;
+}
