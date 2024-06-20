@@ -1,0 +1,57 @@
+  /* RESET LAYOUT E DEFINIÇÃO DE CORES */
+  body {
+      margin: 0;
+      padding: 0;
+      max-width: inherit;
+      background: #fff;
+      color: #4a4a4a;
+  }
+
+  header,
+  footer {
+      font-size: large;
+      text-align: center;
+      padding: 0.3em 0;
+      background-color: #4a4a4a;
+      color: #f9f9f9;
+  }
+
+  nav {
+      background: #eee;
+  }
+
+  main {
+      background: #f9f9f9;
+  }
+
+  aside {
+      background: #eee;
+  }
+
+  /* LAYOUT BASEADO EM FLEXBOX */
+  body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .container {
+      display: flex;
+      flex: 1;
+  }
+
+  main {
+      flex: 1;
+      padding: 0 20px;
+  }
+
+  nav {
+      flex: 0 0 180px;
+      padding: 0 10px;
+      order: -1;
+  }
+
+  aside {
+      flex: 0 0 130px;
+      padding: 0 10px;
+  }
