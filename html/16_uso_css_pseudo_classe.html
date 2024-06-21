@@ -8,6 +8,8 @@
         body {
             margin: 100px;
             background: #bebebe;
+            background-image: url('https://images.unsplash.com/photo-1718889874468-3a56b84bb2e7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: 800px 600px;
         }
 
         p {
@@ -27,6 +29,7 @@
         a:hover {
             color: red;
             text-decoration: underline;
+            background-color: yellow;
         }
 
 
@@ -36,8 +39,24 @@
         }
 
         p a:hover {
-            color: blue;
+            color: yellow;
             text-decoration: none;
+        }
+
+        a.destaque:link {
+            color: red;
+            font-weight: 900;
+            text-decoration: underline;
+        }
+
+        a.destaque:hover {
+            color: yellow;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .paragrafo-diferenciado {
+            background-color: black;
         }
         
     </style>
@@ -46,12 +65,12 @@
 <body>
     <h1>Título</h1>
 
-    <a href="https://www.wikipedia.org">
+    <a href="https://www.yahoo.com">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Logotipo da Wikipedia">    
     </a>
     <br>
-    <a href="https://www.wikipedia.org">
-        Link para a Wikipedia.org  
+    <a href="https://www.yahoo.com">
+        Link para a Wikipedia.org  <img src="https://via.placeholder.com/15">
     </a>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -59,11 +78,11 @@
         Etiam congue, turpis in volutpat semper, lacus ex porttitor augue, et facilisis quam ligula sit amet eros. Duis
         nec leo ac arcu elementum imperdiet. Donec lobortis vehicula maximus. Nulla ullamcorper leo vel lacus ultricies
         molestie. Curabitur cursus vel tortor ac tempor. Nullam in libero sit amet lorem varius fringilla at ultricies
-        felis. <a href="https://www.google.com">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> Praesent et auctor neque. Aenean nec tempus
+        felis. <a href="https://www.yahoo.com">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> Praesent et auctor neque. Aenean nec tempus
         ante, et feugiat odio. Sed commodo ligula vitae mauris elementum sodales. Integer urna odio, euismod tempor
-        lectus eu, aliquam rutrum tortor. Suspendisse gravida metus a magna ultricies, sit amet dictum ligula maximus.
+        lectus eu, <a href="https://www.yahoo.com" class="destaque">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> aliquam rutrum tortor. Suspendisse gravida metus a magna ultricies, sit amet dictum ligula maximus.
         Nulla facilisi.</p>
-    <p>Integer congue leo a nisi ornare luctus ac et nulla. Proin eu ipsum at lectus tristique iaculis. In tortor lacus,
+    <p class="paragrafo-diferenciado">Integer congue leo a nisi ornare luctus ac et nulla. Proin eu ipsum at lectus tristique iaculis. In tortor lacus,
         vestibulum sit amet consequat non, laoreet vitae arcu. Nunc ac arcu orci. Integer eu vestibulum ligula. Morbi at
         suscipit velit. Curabitur congue scelerisque aliquam.</p>
     <p>Quisque nec imperdiet nulla. Nullam laoreet ornare lorem, in rutrum nibh euismod in. Donec tempus metus eu nunc
